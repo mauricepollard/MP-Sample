@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<style>
+  .ui-page { background: royalblue;}
+</style>
+
+</head>
+
+<body > 
+
+<div data-role="page">
+<header data-role="header" data-theme="b">
+
+
+<h4>Welcome</h4>
+</header>
+	<div >
+		
+	</div><!-- /header -->
+<br>
+
+	<center><img src="https://s3-us-west-2.amazonaws.com/eday/edayButtonLogo_revised.png" height="100" width="100" /><center>
+	<article data-role="content">
+
+	
+	<div data-role="container">
+   <form id="sign_in_form" data-ajax="false" action="authenticate.php" method="post" autocomplete="off">
+    <p><input type="text" name="username" id="username" value="" placeholder="Username"  /></p>
+    <p><input type="text" name="password" id="password" value="" placeholder="Password" /></p>
+    <input type="submit" value="Sign in" data-theme="b"/>
+    </form>
+</div>	
+	
+
+</article>
+
+
+	
+ <div data-role="footer"  data-theme="b" data-position="fixed"> 
+	<h6>Strategize To Win!</h6>
+	
+</div> 
+</body>
+</html>
